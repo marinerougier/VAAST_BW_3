@@ -42,9 +42,8 @@ if(!is_compatible) {
     var safari_exclusion = {
         type: "html-keyboard-response",
         stimulus:
-        "<p>Désolé, cette étude n'est pas compatible avec votre navigateur.</p>" +
-        "<p>Veuillez relancer cette page avec un navigateur compatible (ex. " +
-        "Chrome ou Firefox).</p>",
+        "<p>Sorry, this study is not compatible with your browser.</p>" +
+        "<p>Please try again with a compatible browser (e.g., Chrome or Firefox)."</p>",
         choices: jsPsych.NO_KEYS
     };
 
@@ -335,20 +334,19 @@ var sample_n_iat = function(list, n) {
 var welcome = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Bienvenue </h1>" +
-    "<p class='instructions'> Nous vous remercions de prendre part à cette étude.<p>" +
-    "<p class='instructions'> Au cours de celle-ci, vous serez amené·e à compléter une tâche. " +
-    "Nous rassemblerons des données concernant la façon dont vous aurez rempli cette tâche, " + 
-    "mais aucune information personnelle permettant de vous identifier ne sera récoltée. </p>" +
-    "<p class='instructions'> Étant donné que pour la récolte des données nous dépendons de " +
-    "fournisseurs de services tiers, il se peut que les logiciels de blocage de publicités (ex. Ad-block) " +
-    "interfèrent avec la récolte des données. Ainsi, nous vous demandons de bien vouloir désactiver de tels " +
-    "logiciels du temps de cette étude. " +
-    "<b>Si nous ne sommes pas en mesure de récolter vos données, nous ne pourrons pas vous " +
-    "récompenser pour votre participation</b>. </p>" +
-    "<p class='instructions'>Pour toute question au sujet de cette étude, veuillez " +
-    "contacter dominique.muller@univ-grenoble-alpes.fr.</p>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour commencer l'étude.</p>",
+    "<h1 class ='custom-title'> Welcome </h1>" +
+    "<p class='instructions'> First, thank you for taking part to this study.<p>" +
+    "<p class='instructions'> During this study, you will have to complete two different tasks. We" +
+    "will gather data related to how you complete them, but " + 
+    "no personally identifying information will be collected. </p>" +
+    "<p class='instructions'> Because we rely on third party services to gather data, ad-blocking" +
+    "software might interfere with data collection. Therefore, please" +
+    "disable your ad-blocking software during this study." +
+    "<b>If we cannot collect your data, we will not be able to reward you for " +
+    "your participation</b>. </p>" +
+    "<p class='instructions'>If you have any question related to this research, please " +
+    "e-mail marine.rougier@uclouvain.be</p>" +
+    "<p class = 'continue-instructions'>Press <strong>espace</strong> to start the study.</p>",
   choices: [32]
 };
 
