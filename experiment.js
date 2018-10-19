@@ -435,11 +435,11 @@ var vaast_instructions_1 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Video Game task</h1>" +
-    "<p class='instructions'>In the first task, just like in a videogame, you " +
+    "<p class='instructions'>In this task, just like in a videogame, you " +
     "will act within the environment presented below." +
    "<p class='instructions'> You will be able to move forward and backward" +
     " using the arrow keys on your keyboard.</p>" +
-    "<p class='instructions'>Some pictures will appear within the" +
+    "<p class='instructions'>First names will appear within the" +
     " environment and you will have to approach them or avoid them" +
     " according to the category they belong to.</p>" +
     "<br>" +
@@ -453,15 +453,17 @@ var vaast_instructions_1 = {
 var vaast_instructions_2 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Task 1 </h1>" +
-    "<p class='instructions'>In this task, you will have to respond using arrow keys on your " +
-    "keyboard. For every trial, a first name will appear and you will " +
-    "have to press as quickly as possible either the \"approach\" key or the " +
-    "\"avoid\" key (see below).</p>" +
-    "<br>" +
-    "<img src = 'media/keyboard-vaastt.png'>" +
-    "<br>" +
-    "<p class = 'continue-instructions'>Press <strong>space</strong> to continue.</p>",
+    "<h1 class ='custom-title'> Video Game task </h1>" +
+    "<p class='instructions'> A series of first names will be displayed in this environment. " +
+    "As you will see, some of these first names are usually associated" +
+    "with Black people (typical Black people first names) vs. White people (typical White people first names)." +
+    "<p class='instructions'>Your task will be to move forward or backward as a function of these first names " +
+    "(more specific instructions following) by using the following keys on your keyboard </p>" +
+    "<p class='instructions'>Y = to MOVE FORWARD " +
+    " H = START key" +
+    " N = to MOVE BACKWARD </p>" +
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
   choices: [32]
 };
 
