@@ -532,11 +532,13 @@ var vaast_instructions_5 = {
 var vaast_instructions_6 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Video Game task - Section 2 </h1>" +
+    "<h1 class ='custom-title'> Video Game task - Section 1</h1>" +
     "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
-    "<li><strong>Approach (move forward) typical " + group_to_approach_2 + " people first names by pressing the Y key </strong></li>" +
-    "<li><strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names by pressing the N key</strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_2 + " people first names </strong></li>" +
+    "<strong>by pressing the Y key </strong>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names </strong></li>" +
+    "<strong>by pressing the N key</strong>" +
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
     "have to perform for each category. You need this information to complete the " +
@@ -544,8 +546,8 @@ var vaast_instructions_6 = {
     "<strong> Also, it is EXTREMELY IMPORTANT that you try to respond as fast and as correctly as possible. </strong>." +
     "<p class ='instructions'>You will start with a training phase.</p>" +
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
-    "so read and memorize the instructions above." + 
-    "If your response is false, you will have to start again the trial and make the correct action" +
+    "so read and memorize the instructions above. " + 
+    "If your response is false, you will have to start again the trial and make the correct action " +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
@@ -555,16 +557,18 @@ var vaast_instructions_6 = {
 var vaast_instructions_7 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Video Game task - Section 2 </h1>" +
+    "<h1 class ='custom-title'> Video Game task - Section 1 </h1>" +
     "<p class='instructions'>The training is now completed. </p>" +
     "<p class='instructions'><u>WARNING</u>: You will no longer have messages to report your errors.</p>" +
     "<p class='instructions'>As a reminder, you have to:</p>" +
     "<ul class='instructions'>" +
      "<li>" +
-      "<strong>Approach (move forward) typical " + group_to_approach_2 + " people first names by pressing the Y key</strong>" +
+      "<strong>Approach (move forward) typical " + group_to_approach_2 + " people first names </strong>" +
+      "<strong>by pressing the Y key</strong>" +
      "</li>" +
      "<li>" +
-      "<strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names by pressing the N key</strong>" +
+      "<strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names </strong>" +
+      "<strong>by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
