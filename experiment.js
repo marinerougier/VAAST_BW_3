@@ -950,19 +950,19 @@ var iat_instructions_1 = {
       "</tr>" +
       "<tr>" +
         "<td>GOOD</td>" +
-        "<td align='left'>Caress, Freedom, Health, Love</td>" +
+        "<td align='left'>Caress, Freedom, Health, Love, Peace, Cheer, Friend, Heaven, Loyal, Pleasure, Diamond, Gentle, Honest, Lucky, Rainbow, Diploma, Gift, Honor, Miracle, Sunrise, Family, Happy, Laughter, Paradise, Vacation</td>" +
       "</tr>" +
       "<tr>" +
         "<td>BAD</td>" +
-        "<td align='left'>Abuse, Crash, Filth, Murder</td>" +
+        "<td align='left'>Abuse, Crash, Filth, Murder, Sickness, Accident, Death, Grief, Poison, Stink, Assault, Disaster, Hatred, Pollute, Tragedy, Bomb, Divorce, Jail, Poverty, Ugly, Cancer, Evil, Kill, Rotten, Vomit</td>" +
       "</tr>" +
       "<tr>" +
         "<td>WHITE people</td>" +
-        "<td align='left'>Harry, Josh, Roger, Alan</td>" +
+        "<td align='left'>Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
       "</tr>" +
       "<tr>" +
         "<td>BLACK people</td>" +
-        "<td align='left'>Lerone, Percell, Theo, Alphonse</td>" +
+        "<td align='left'>Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
     "<h3 class='instructions'>Instructions</h3>" +
