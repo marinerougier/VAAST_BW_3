@@ -1426,7 +1426,7 @@ var iat_instructions_2 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Categorization task </h1>" +
-    "<p class='instructions'>The Categorization task is now completed. " +
+    "<p><center>This task is completed.</center></p>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to continue.</p>",
   choices: [32]
 };
