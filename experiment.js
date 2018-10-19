@@ -43,7 +43,7 @@ if(!is_compatible) {
         type: "html-keyboard-response",
         stimulus:
         "<p>Sorry, this study is not compatible with your browser.</p>" +
-        "<p>Please try again with a compatible browser (e.g., Chrome or Firefox)."</p>",
+        "<p>Please try again with a compatible browser (e.g., Chrome or Firefox).</p>",
         choices: jsPsych.NO_KEYS
     };
 
