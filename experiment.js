@@ -458,7 +458,7 @@ var vaast_instructions_2 = {
     "As you will see, some of these first names are usually associated " +
     "with Black people (typical Black people first names) vs. with White people (typical White people first names)." +
     "<p class='instructions'>Your task is to move forward or backward as a function of these first names " +
-    "(more specific instructions following) and this by using the following keys on your keyboard </p>" +
+    "(more specific instructions following) and this by using the following keys on your keyboard: </p>" +
     "<p class='instructions'>Y = to MOVE FORWARD </p>" +
     "<p class='instructions'>H = START key </p>" +
     "<p class='instructions'>N = to MOVE BACKWARD </p>" +
@@ -489,9 +489,9 @@ var vaast_instructions_4 = {
     "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
     "<li><strong>Approach (move forward) typical " + group_to_approach_1 + " people first names </strong></li>" +
-    "<li><strong>by pressing the Y key </strong></li>" +
+    "<strong>by pressing the Y key </strong>" +
     "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names </strong></li>" +
-    "<li><strong>by pressing the N key</strong></li>" +
+    "<strong>by pressing the N key</strong>" +
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
     "have to perform for each category. You need this information to complete the " +
