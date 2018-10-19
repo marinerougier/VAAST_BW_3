@@ -941,7 +941,24 @@ var iat_instructions_1 = {
     "</p>" +
     "<p class='instructions'>As you will see, you will have to sort" +
     " words depending on whether these ones are good vs. bad" +
-    " and first names depending on whether these ones are usually associated with Black people vs. with White people." +
+    " and first names depending on whether these ones are usually associated with Black people vs. with White people.</p>" +
+    "<h3 class='instructions'>Instructions</h3>" +
+    "<ul class='instructions'>" +
+      "<li>Keep fingers on the <span class='key'>E</span> and <span class='key'>I</span> keys to enable rapid response.</li>" +
+      "<li>Labels at the top will tell you which items go with each key.</li>" +
+      "<li>Go as fast as you can.</li>" +
+    "</ul>" +
+    "<p>&nbsp;</p>" +
+    "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
+    " to continue.</p>",
+  choices: [32]
+};
+
+var iat_instructions_1_1 = {
+  type: "html-keyboard-response",
+  stimulus:
+    "<h1 class ='custom-title'> Categorization task </h1>" +
+    "<p class='instructions'>Here are the four categories and stimuli belonging to each category" +
     "</p>" +
     "<table>" +
       "<tr>" +
@@ -965,17 +982,12 @@ var iat_instructions_1 = {
         "<td align='left'>Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
-    "<h3 class='instructions'>Instructions</h3>" +
-    "<ul class='instructions'>" +
-      "<li>Keep fingers on the <span class='key'>E</span> and <span class='key'>I</span> keys to enable rapid response.</li>" +
-      "<li>Labels at the top will tell you which items go with each key.</li>" +
-      "<li>Go as fast as you can.</li>" +
-    "</ul>" +
-    "<p>&nbsp;</p>" +
     "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
     " to continue.</p>",
   choices: [32]
 };
+
+
 
 // iat block instructions ---------------------------------------------------------------
 
@@ -1873,7 +1885,8 @@ timeline.push(vaast_instructions_6,
 timeline.push(vaast_instructions_8);
 
 // iat - initial instructions
-timeline.push(iat_instructions_1)
+timeline.push(iat_instructions_1,
+	     iat_instructions_1_1);
 
 timeline.push(iat_instructions_block_1, iat_block_1,
               iat_instructions_block_2, iat_block_2,
