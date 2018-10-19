@@ -799,12 +799,12 @@ var vaast_instructions_8 = {
 // IAT -----------------------------------------------------------------------------------
 // IAT variable initialization ----------------------------------------------------------
 // Correct responses -----------------------
-var self_side      = undefined;
-var other_side     = undefined;
-var maths_side_1st = undefined;
-var arts_side_1st  = undefined;
-var maths_side_2nd = undefined;
-var arts_side_2nd  = undefined;
+var good_side      = undefined;
+var bad_side     = undefined;
+var black_side_1st = undefined;
+var white_side_1st  = undefined;
+var black_side_2nd = undefined;
+var white_side_2nd  = undefined;
 
 // Label -----------------------------------
 var block_1_left_label          = undefined;
@@ -822,66 +822,66 @@ var block_5_right_label_top     = undefined;
 var block_5_left_label_bottom   = undefined;
 var block_5_right_label_bottom  = undefined;
 
-switch(iat_self) {
+switch(iat_good) {
   case "left":
-        self_side               = "left";
-        other_side              = "right";
+        good_side               = "left";
+        bad_side              = "right";
 
-        block_1_left_label      = "SELF";
-        block_1_right_label     = "OTHER";
-        block_3_left_label_top  = "SELF";
-        block_3_right_label_top = "OTHER";
-        block_5_left_label_top  = "SELF";
-        block_5_right_label_top = "OTHER";
+        block_1_left_label      = "GOOD;
+        block_1_right_label     = "BAD";
+        block_3_left_label_top  = "GOOD";
+        block_3_right_label_top = "BAD";
+        block_5_left_label_top  = "GOOD";
+        block_5_right_label_top = "BAD";
 
     break;
 
   case "right":
-        self_side               = "right";
-        other_side              = "left";
+        good_side               = "right";
+        bad_side              = "left";
 
-        block_1_left_label      = "OTHER";
-        block_1_right_label     = "SELF";
-        block_3_left_label_top  = "OTHER";
-        block_3_right_label_top = "SELF";
-        block_5_left_label_top  = "OTHER";
-        block_5_right_label_top = "SELF";
+        block_1_left_label      = "BAD";
+        block_1_right_label     = "GOOD";
+        block_3_left_label_top  = "BAD";
+        block_3_right_label_top = "GOOD";
+        block_5_left_label_top  = "BAD";
+        block_5_right_label_top = "GOOD";
 
     break;
 }
 
-switch(iat_maths_1) {
+switch(iat_black_1) {
   case "left":
-      maths_side_1st = "left";
-      arts_side_1st  = "right";
-      maths_side_2nd = "right";
-      arts_side_2nd  = "left";
+      black_side_1st = "left";
+      white_side_1st  = "right";
+      black_side_2nd = "right";
+      white_side_2nd  = "left";
 
-    block_2_left_label          = "MATH";
-    block_2_right_label         = "ART";
-    block_3_left_label_bottom   = "MATH";
-    block_3_right_label_bottom  = "ART";
-    block_4_left_label          = "ART";
-    block_4_right_label         = "MATH";
-    block_5_left_label_bottom   = "ART";
-    block_5_right_label_bottom  = "MATH";
+    block_2_left_label          = "BLACK";
+    block_2_right_label         = "WHITE";
+    block_3_left_label_bottom   = "BLACK";
+    block_3_right_label_bottom  = "WHITE";
+    block_4_left_label          = "WHITE";
+    block_4_right_label         = "BLACK";
+    block_5_left_label_bottom   = "WHITE";
+    block_5_right_label_bottom  = "BLACK";
 
     break;
 
   case "right":
-        maths_side_1st = "right";
-        arts_side_1st  = "left";
-        maths_side_2nd = "left";
-        arts_side_2nd  = "right";
+        black_side_1st = "right";
+        white_side_1st  = "left";
+        black_side_2nd = "left";
+        white_side_2nd  = "right";
 
-    block_2_left_label          = "ART";
-    block_2_right_label         = "MATH";
-    block_3_left_label_bottom   = "ART";
-    block_3_right_label_bottom  = "MATH";
-    block_4_left_label          = "MATH";
-    block_4_right_label         = "ART";
-    block_5_left_label_bottom   = "MATH";
-    block_5_right_label_bottom  = "ART";
+    block_2_left_label          = "WHITE";
+    block_2_right_label         = "BLACK";
+    block_3_left_label_bottom   = "WHITE";
+    block_3_right_label_bottom  = "BLACK";
+    block_4_left_label          = "BLACK";
+    block_4_right_label         = "WHITE";
+    block_5_left_label_bottom   = "BLACK";
+    block_5_right_label_bottom  = "WHITE";
 
     break;
 }
@@ -902,20 +902,20 @@ var iat_instructions_1 = {
         "<th align='left'>Item</th>" +
       "</tr>" +
       "<tr>" +
-        "<td>SELF</td>" +
-        "<td align='left'>I, me, my, mine</td>" +
+        "<td>GOOD</td>" +
+        "<td align='left'>Caress, Freedom, Health, Love</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>OTHER</td>" +
-        "<td align='left'>they, theirs, them, themselves</td>" +
+        "<td>BAD</td>" +
+        "<td align='left'>Abuse, Crash, Filth, Murder</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>ART</td>" +
-        "<td align='left'>poetry, literature, theater, symphony</td>" +
+        "<td>WHITE</td>" +
+        "<td align='left'>Harry, Josh, Roger, Alan</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>MATH</td>" +
-        "<td align='left'>calculus, equation, geometry, statistics</td>" +
+        "<td>BLACK</td>" +
+        "<td align='left'>Lerone, Percell, Theo, Alphonse</td>" +
       "</tr>" +
     "</table>" +
     "<h3 class='instructions'>Instructions</h3>" +
@@ -1154,74 +1154,74 @@ var iat_instructions_block_5_test = {
 // iat - stimuli ------------------------------------------------------------------------
 
 var iat_block_1_stim = [
-  {category: "self-other", stimulus: "I",          stim_key_association: self_side},
-  {category: "self-other", stimulus: "me",         stim_key_association: self_side},
-  {category: "self-other", stimulus: "my",         stim_key_association: self_side},
-  {category: "self-other", stimulus: "mine",       stim_key_association: self_side},
-  {category: "self-other", stimulus: "they",       stim_key_association: other_side},
-  {category: "self-other", stimulus: "theirs",     stim_key_association: other_side},
-  {category: "self-other", stimulus: "them",       stim_key_association: other_side},
-  {category: "self-other", stimulus: "themselves", stim_key_association: other_side}
+  {category: "good-bad", stimulus: "Caress",         stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Freedom",        stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Health",         stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Love",           stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Abuse",          stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Crash",          stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Filth",          stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Murder",         stim_key_association: bad_side}
 ]
 
 var iat_block_2_stim = [
-  {category: "maths-arts", stimulus: "calculus",   stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "equation",   stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "geometry",   stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "statistics", stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "poetry",     stim_key_association: arts_side_1st},
-  {category: "maths-arts", stimulus: "literature", stim_key_association: arts_side_1st},
-  {category: "maths-arts", stimulus: "theater",    stim_key_association: arts_side_1st},
-  {category: "maths-arts", stimulus: "symphony",   stim_key_association: arts_side_1st}
+  {category: "black-white", stimulus: "Lerone",   stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Percell",  stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Theo",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Alphonse", stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Alan",     stim_key_association: white_side_1st}
 ]
 
 var iat_block_3_stim = [
-  {category: "self-other", stimulus: "I",          stim_key_association: self_side},
-  {category: "self-other", stimulus: "me",         stim_key_association: self_side},
-  {category: "self-other", stimulus: "my",         stim_key_association: self_side},
-  {category: "self-other", stimulus: "mine",       stim_key_association: self_side},
-  {category: "self-other", stimulus: "they",       stim_key_association: other_side},
-  {category: "self-other", stimulus: "theirs",     stim_key_association: other_side},
-  {category: "self-other", stimulus: "them",       stim_key_association: other_side},
-  {category: "self-other", stimulus: "themselves", stim_key_association: other_side},
-  {category: "maths-arts", stimulus: "calculus",   stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "equation",   stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "geometry",   stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "statistics", stim_key_association: maths_side_1st},
-  {category: "maths-arts", stimulus: "poetry",     stim_key_association: arts_side_1st},
-  {category: "maths-arts", stimulus: "literature", stim_key_association: arts_side_1st},
-  {category: "maths-arts", stimulus: "theater",    stim_key_association: arts_side_1st},
-  {category: "maths-arts", stimulus: "symphony",   stim_key_association: arts_side_1st}
+  {category: "good-bad", stimulus: "Caress",         stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Freedom",        stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Health",         stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Love",           stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Abuse",          stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Crash",          stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Filth",          stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Murder",         stim_key_association: bad_side},
+  {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Alphonse",   stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Harry",      stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Josh",       stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Roger",      stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Alan",       stim_key_association: white_side_1st}
 ]
 
 var iat_block_4_stim = [
-  {category: "maths-arts", stimulus: "calculus",   stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "equation",   stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "geometry",   stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "statistics", stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "poetry",     stim_key_association: arts_side_2nd},
-  {category: "maths-arts", stimulus: "literature", stim_key_association: arts_side_2nd},
-  {category: "maths-arts", stimulus: "theater",    stim_key_association: arts_side_2nd},
-  {category: "maths-arts", stimulus: "symphony",   stim_key_association: arts_side_2nd}
+  {category: "black-white", stimulus: "Lerone",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Percell",   stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Theo",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Alphonse",  stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Harry",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Josh",      stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Roger",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Alan",      stim_key_association: white_side_2nd}
 ]
 
 var iat_block_5_stim = [
-  {category: "self-other", stimulus: "I",          stim_key_association: self_side},
-  {category: "self-other", stimulus: "me",         stim_key_association: self_side},
-  {category: "self-other", stimulus: "my",         stim_key_association: self_side},
-  {category: "self-other", stimulus: "mine",       stim_key_association: self_side},
-  {category: "self-other", stimulus: "they",       stim_key_association: other_side},
-  {category: "self-other", stimulus: "theirs",     stim_key_association: other_side},
-  {category: "self-other", stimulus: "them",       stim_key_association: other_side},
-  {category: "self-other", stimulus: "themselves", stim_key_association: other_side},
-  {category: "maths-arts", stimulus: "calculus",   stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "equation",   stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "geometry",   stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "statistics", stim_key_association: maths_side_2nd},
-  {category: "maths-arts", stimulus: "poetry",     stim_key_association: arts_side_2nd},
-  {category: "maths-arts", stimulus: "literature", stim_key_association: arts_side_2nd},
-  {category: "maths-arts", stimulus: "theater",    stim_key_association: arts_side_2nd},
-  {category: "maths-arts", stimulus: "symphony",   stim_key_association: arts_side_2nd}
+  {category: "good-bad", stimulus: "Caress",      stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Freedom",     stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Health",      stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Love",        stim_key_association: good_side},
+  {category: "good-bad", stimulus: "Abuse",       stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Crash",       stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Filth",       stim_key_association: bad_side},
+  {category: "good-bad", stimulus: "Murder",      stim_key_association: bad_side},
+  {category: "black-white", stimulus: "Lerone",   stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Percell",  stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Theo",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Alphonse", stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Alan",     stim_key_association: white_side_2nd}
 ]
 
 
@@ -1232,7 +1232,7 @@ var iat_block_1 = {
       type: 'iat-html',
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
-      label_category: ['self-other'],
+      label_category: ['good-bad'],
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
       html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
       force_correct_key_press: true,
@@ -1259,7 +1259,7 @@ var iat_block_2 = {
       type: 'iat-html',
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
-      label_category: ['maths-arts'],
+      label_category: ['black-white'],
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
       html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
       force_correct_key_press: true,
@@ -1286,7 +1286,7 @@ var iat_block_3_training = {
       type: 'iat-html',
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
-      label_category: ['self-other', 'maths-arts'],
+      label_category: ['good-bad', 'black-white'],
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
       html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
       force_correct_key_press: true,
@@ -1314,7 +1314,7 @@ var iat_block_3_test = {
       type: 'iat-html',
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
-      label_category: ['self-other', 'maths-arts'],
+      label_category: ['good-bad', 'black-white'],
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
       html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
       force_correct_key_press: true,
@@ -1342,7 +1342,7 @@ var iat_block_4 = {
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
-      label_category: ['maths-arts'],
+      label_category: ['black-white'],
       html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
       force_correct_key_press: true,
       display_feedback: true,
@@ -1369,7 +1369,7 @@ var iat_block_5_training = {
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
-      label_category: ['self-other', 'maths-arts'],
+      label_category: ['good-bad', 'black-white'],
       html_when_wrong: '<span style="color: red; font-size: 80px">&times;</span>',
       force_correct_key_press: true,
       display_feedback: true,
@@ -1395,7 +1395,7 @@ var iat_block_5_test = {
       type: 'iat-html',
       stimulus: jsPsych.timelineVariable('stimulus'),
       category: jsPsych.timelineVariable('category'),
-      label_category: ['self-other', 'maths-arts'],
+      label_category: ['good-bad', 'black-white'],
       stim_key_association: jsPsych.timelineVariable('stim_key_association'),
       html_when_wrong: '<span style="color: red; font-size: 80px">X</span>',
       bottom_instructions: '<p>If you press the wrong key, a red X will appear. Press the other key to continue</p>',
