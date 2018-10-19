@@ -532,7 +532,7 @@ var vaast_instructions_5 = {
 var vaast_instructions_6 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Video Game task - Section 1</h1>" +
+    "<h1 class ='custom-title'> Video Game task - Section 2</h1>" +
     "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
     "<li><strong>Approach (move forward) typical " + group_to_approach_2 + " people first names </strong></li>" +
@@ -557,7 +557,7 @@ var vaast_instructions_6 = {
 var vaast_instructions_7 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Video Game task - Section 1 </h1>" +
+    "<h1 class ='custom-title'> Video Game task - Section 2 </h1>" +
     "<p class='instructions'>The training is now completed. </p>" +
     "<p class='instructions'><u>WARNING</u>: You will no longer have messages to report your errors.</p>" +
     "<p class='instructions'>As a reminder, you have to:</p>" +
