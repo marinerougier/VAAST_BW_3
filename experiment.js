@@ -485,21 +485,22 @@ var vaast_instructions_3 = {
 var vaast_instructions_4 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
-    "<p class='instructions'>Vous devrez : " +
+    "<h1 class ='custom-title'> Video Game task - Instructions for this section</h1>" +
+    "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
-    "<li><strong>ALLER VERS les mots " + group_to_approach_1 + " (en appuyant sur Y)</strong></li>" +
-    "<li><strong> VOUS ÉLOIGNER des mots " + group_to_avoid_1 + " (en appuyant sur N)</strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + "first names by pressing the Y key </strong></li>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + "first names by pressing the N key</strong></li>" +
     "</ul>" +
-    "<p class='instructions'>Il est très important de vous souvenir de ces consignes pour pouvoir " +
-    "réaliser la tâche correctement. Il est également EXTRÊMEMENT important d'essayer de répondre " +
-    "<strong>LE PLUS RAPIDEMENT ET LE PLUS EXACTEMENT POSSIBLE</strong>." +
-    "<p class ='instructions'>Vous allez commencer par une phase d'entraînement.</p>" +
-    "<p class ='instructions'><u>ATTENTION</u> : nous vous signalerons vos erreurs uniquement " +
-    "dans la phase d'entraînement, donc relisez et mémorisez bien les consignes ci-dessus. " + 
-    "Si vous commettez une erreur, vous devrez vous corriger." +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>entrée</strong> pour " +
-    "commencer l'entraînement.</p>",
+    "<p class='instructions'>It is very important to remember which action you will " +
+    "have to perform for each category. You need this information to complete the " +
+    "task successfully</p>" +
+    "<strong> Also, it is EXTREMELY IMPORTANT that you try to respond as fast and as correctly as possible. </strong>." +
+    "<p class ='instructions'>You will start with a training phase.</p>" +
+    "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
+    "so read and memorize the instructions above." + 
+    "If your response is false, you will have to make the opposite and correct action" +
+    "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
+    "begin the training.</p>",
   choices: [13]
 };
 
