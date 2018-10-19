@@ -353,14 +353,14 @@ var welcome = {
 var welcome_2 = {
   type: "html-button-response",
   stimulus:
-    "<p class='instructions'>Avant de continuer, sachez que cette étude devrait prendre " +
-    "environ 15 minutes.</p>",
-  choices: ['J\'ai le temps', 'Je n\'ai pas le temps'],
+    "<p class='instructions'>Before going further, please note that this study should take" +
+    "XXX minutes to complete.</p>",
+  choices: ['I have enough time', 'I do not have enough time'],
 };
 
 var not_enough_time_to_complete = {
     type: 'html-button-response',
-    stimulus: '<p>Veuillez revenir plus tard pour réaliser cette étude.</p>',
+    stimulus: '<p>Please come back later to take part in this experiment.</p>',
     choices: ['Go back to Prolific Academic'],
 };
 
@@ -389,11 +389,11 @@ var if_not_enough_time = {
 var welcome_3 = {
   type: "html-keyboard-response",
   stimulus:
-    "<p class='instructions'>Nous allons maintenant tester votre connexion à notre serveur. " +
-    "En cas d'échec, veuillez vérifier votre connexion internet et vous assurer de bien avoir " +
-    "désactivé vos bloqueurs de publicités.</p>" +
-    "<p class='instructions'>Ce test ne devrait pas prendre plus de 5 secondes.</p>" +
-    "<p class ='continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer.</p>",
+    "<p class='instructions'>We will now proceed to a test of your connection to our server. " +
+    "If this test fails, please check your Internet connection and make sure you have " +
+    "actually disabled your ad-blocking software.</p>" +
+    "<p class='instructions'>This test should last less than 5 seconds.</p>" +
+    "<p class ='continue-instructions'>Press <strong>space</strong> to continue.</p>",
   choices: [32]
 };
 
