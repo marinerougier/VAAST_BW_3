@@ -456,9 +456,9 @@ var vaast_instructions_2 = {
     "<h1 class ='custom-title'> Video Game task </h1>" +
     "<p class='instructions'> A series of first names will be displayed in this environment. " +
     "As you will see, some of these first names are usually associated" +
-    "with Black people (typical Black people first names) vs. White people (typical White people first names)." +
-    "<p class='instructions'>Your task will be to move forward or backward as a function of these first names " +
-    "(more specific instructions following) by using the following keys on your keyboard </p>" +
+    "with Black people (typical Black people first names) vs. with White people (typical White people first names)." +
+    "<p class='instructions'>Your task is to move forward or backward as a function of these first names " +
+    "(more specific instructions following) and this by using the following keys on your keyboard </p>" +
     "<p class='instructions'>Y = to MOVE FORWARD " +
     " H = START key" +
     " N = to MOVE BACKWARD </p>" +
@@ -470,17 +470,15 @@ var vaast_instructions_2 = {
 var vaast_instructions_3 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
-    "<p class='instructions'>Au début de chaque essai, vous allez voir apparaître au centre de l'écran " +
-    "un point de fixation (le symbole \"o\"). Ce symbole indique que vous devez appuyer sur la touche DEPART (touche H) " +
-    "pour continuer.</p>" +
-    "<p class='instructions'>Vous allez alors voir apparaître au centre de l'écran le symbole \"+\", suivi d'un mot.</p>" +
-    "<p class='instructions'>Votre tâche consistera à vous déplacer vers l'avant " +
-    "ou vers l'arrière en appuyant une seule fois le plus rapidement possible sur " +
-    "la touche \"avancer\" (Y) ou sur la touche \"reculer\" (N)." +
-    "<p class='instructions'>Merci également d'utiliser uniquement l'index de votre main " +
-    "dominante pour toutes ces actions.</p>" +
-     "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer.</p>",
+    "<h1 class ='custom-title'> Video Game task </h1>" +
+    "<p class='instructions'>At the beginning of each trial, you will see the “O” symbol." +
+    "This symbol indicates that you have to press the START key (namely the H key) to start the trial. </p>" +
+    "<p class='instructions'>Then, you will see a fixation cross (+) in the center of the screen followed by a first name.</p>" +
+    "<p class='instructions'>Your task is to move forward or backward by pressing the MOVE FORWARD (the Y key)" +
+    "or MOVE BACKWARD (the N key ) key as fast as possible." +
+    "<p class='instructions'>Please use only the index of your dominant hand for all these actions.</p>" +
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
   choices: [32]
 };
 
