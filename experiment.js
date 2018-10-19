@@ -495,12 +495,12 @@ var vaast_instructions_4 = {
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
     "have to perform for each category. You need this information to complete the " +
-    "task successfully</p>" +
+    "task successfully.</p>" +
     "<strong> Also, it is EXTREMELY IMPORTANT that you try to respond as fast and as correctly as possible. </strong>." +
     "<p class ='instructions'>You will start with a training phase.</p>" +
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
     "so read and memorize the instructions above. " + 
-    "If your response is false, you will have to start again the trial and make the correct action " +
+    "If your response is false, you will have to start again the trial and make the correct action. " +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
@@ -542,12 +542,12 @@ var vaast_instructions_6 = {
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
     "have to perform for each category. You need this information to complete the " +
-    "task successfully</p>" +
+    "task successfully.</p>" +
     "<strong> Also, it is EXTREMELY IMPORTANT that you try to respond as fast and as correctly as possible. </strong>." +
     "<p class ='instructions'>You will start with a training phase.</p>" +
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
     "so read and memorize the instructions above. " + 
-    "If your response is false, you will have to start again the trial and make the correct action " +
+    "If your response is false, you will have to start again the trial and make the correct action. " +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
