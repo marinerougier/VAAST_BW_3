@@ -857,14 +857,14 @@ switch(iat_black_1) {
       black_side_2nd = "right";
       white_side_2nd  = "left";
 
-    block_2_left_label          = "BLACK";
-    block_2_right_label         = "WHITE";
-    block_3_left_label_bottom   = "BLACK";
-    block_3_right_label_bottom  = "WHITE";
-    block_4_left_label          = "WHITE";
-    block_4_right_label         = "BLACK";
-    block_5_left_label_bottom   = "WHITE";
-    block_5_right_label_bottom  = "BLACK";
+    block_2_left_label          = "BLACK people";
+    block_2_right_label         = "WHITE people";
+    block_3_left_label_bottom   = "BLACK people";
+    block_3_right_label_bottom  = "WHITE people";
+    block_4_left_label          = "WHITE people";
+    block_4_right_label         = "BLACK people";
+    block_5_left_label_bottom   = "WHITE people";
+    block_5_right_label_bottom  = "BLACK people";
 
     break;
 
@@ -874,14 +874,14 @@ switch(iat_black_1) {
         black_side_2nd = "left";
         white_side_2nd  = "right";
 
-    block_2_left_label          = "WHITE";
-    block_2_right_label         = "BLACK";
-    block_3_left_label_bottom   = "WHITE";
-    block_3_right_label_bottom  = "BLACK";
-    block_4_left_label          = "BLACK";
-    block_4_right_label         = "WHITE";
-    block_5_left_label_bottom   = "BLACK";
-    block_5_right_label_bottom  = "WHITE";
+    block_2_left_label          = "WHITE people";
+    block_2_right_label         = "BLACK people";
+    block_3_left_label_bottom   = "WHITE people";
+    block_3_right_label_bottom  = "BLACK people";
+    block_4_left_label          = "BLACK people";
+    block_4_right_label         = "WHITE people";
+    block_5_left_label_bottom   = "BLACK people";
+    block_5_right_label_bottom  = "WHITE people";
 
     break;
 }
@@ -892,7 +892,7 @@ var iat_instructions_1 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Task 2 </h1>" +
-    "<p class='instructions'>In this task, you will be asked to sort words" +
+    "<p class='instructions'>In this task, you will be asked to sort words and first names" +
     " into groups as fast as you can using the keyboard. The following is a" +
     " list of category labels and the items that belong to each of these categories." +
     "</p>" +
@@ -910,11 +910,11 @@ var iat_instructions_1 = {
         "<td align='left'>Abuse, Crash, Filth, Murder</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>WHITE</td>" +
+        "<td>Typical WHITE people first names</td>" +
         "<td align='left'>Harry, Josh, Roger, Alan</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>BLACK</td>" +
+        "<td>Typical BLACK people first names</td>" +
         "<td align='left'>Lerone, Percell, Theo, Alphonse</td>" +
       "</tr>" +
     "</table>" +
