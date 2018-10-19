@@ -453,16 +453,15 @@ var vaast_instructions_1 = {
 var vaast_instructions_2 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
-    "<p class='instructions'>Des mots vous seront présentés dans cette environnement. " +
-    "Votre tâche consistera à avancer ou à reculer en fonction du genre (masculin ou féminin) " +
-    "du mot qui vous sera présenté (des instructions plus précises seront données juste après)." +
-    "<p class='instructions'>Vous pourrez vous déplacer dans l'environnement en utilisant les " +
-    "touches Y, H et N de votre clavier, comme indiqué ci-dessous. </p>" +
+    "<h1 class ='custom-title'> Task 1 </h1>" +
+    "<p class='instructions'>In this task, you will have to respond using arrow keys on your " +
+    "keyboard. For every trial, a first name will appear and you will " +
+    "have to press as quickly as possible either the \"approach\" key or the " +
+    "\"avoid\" key (see below).</p>" +
     "<br>" +
     "<img src = 'media/keyboard-vaastt.png'>" +
     "<br>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer.</p>",
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to continue.</p>",
   choices: [32]
 };
 
