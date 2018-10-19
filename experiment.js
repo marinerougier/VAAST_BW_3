@@ -958,8 +958,7 @@ var iat_instructions_1_1 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Categorization task </h1>" +
-    "<p class='instructions'>Here are the four categories and stimuli belonging to each category" +
-    "</p>" +
+    "<p class='instructions'><center>Here are the four categories and stimuli belonging to each category</center></p>" +
     "<table>" +
       "<tr>" +
         "<th width='200px'>Category</th>" +
