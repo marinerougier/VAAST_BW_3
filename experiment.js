@@ -340,8 +340,8 @@ var welcome = {
     "will gather data related to how you complete them, but " + 
     "no personally identifying information will be collected. </p>" +
     "<p class='instructions'> Because we rely on third party services to gather data, ad-blocking" +
-    "software might interfere with data collection. Therefore, please" +
-    "disable your ad-blocking software during this study." +
+    " software might interfere with data collection. Therefore, please" +
+    " disable your ad-blocking software during this study." +
     "<b> If we cannot collect your data, we will not be able to reward you for " +
     "your participation</b>. </p>" +
     "<p class='instructions'> If you have any question related to this research, please " +
@@ -354,7 +354,7 @@ var welcome_2 = {
   type: "html-button-response",
   stimulus:
     "<p class='instructions'>Before going further, please note that this study should take" +
-    "XXX minutes to complete.</p>",
+    " XXX minutes to complete.</p>",
   choices: ['I have enough time', 'I do not have enough time'],
 };
 
@@ -438,7 +438,7 @@ var vaast_instructions_1 = {
     "<p class='instructions'>In this task, just like in a video game, you " +
     "will act within the environment presented below." +
    "<p class='instructions'> You will be able to move forward and backward" +
-    " using the arrow keys on your keyboard.</p>" +
+    " using keys on your keyboard.</p>" +
     "<p class='instructions'>First names will appear within the" +
     " environment and you will have to approach them or avoid them" +
     " according to the category they belong to.</p>" +
@@ -455,13 +455,13 @@ var vaast_instructions_2 = {
   stimulus:
     "<h1 class ='custom-title'> Video Game task </h1>" +
     "<p class='instructions'> A series of first names will be displayed in this environment. " +
-    "As you will see, some of these first names are usually associated" +
+    "As you will see, some of these first names are usually associated " +
     "with Black people (typical Black people first names) vs. with White people (typical White people first names)." +
     "<p class='instructions'>Your task is to move forward or backward as a function of these first names " +
     "(more specific instructions following) and this by using the following keys on your keyboard </p>" +
-    "<p class='instructions'>Y = to MOVE FORWARD " +
-    " H = START key" +
-    " N = to MOVE BACKWARD </p>" +
+    "<p class='instructions'>Y = to MOVE FORWARD </p>" +
+    "<p class='instructions'>H = START key </p>" +
+    "<p class='instructions'>N = to MOVE BACKWARD </p>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
   choices: [32]
@@ -474,7 +474,7 @@ var vaast_instructions_3 = {
     "<p class='instructions'>At the beginning of each trial, you will see the “O” symbol. " +
     "This symbol indicates that you have to press the START key (namely the H key) to start the trial. </p>" +
     "<p class='instructions'>Then, you will see a fixation cross (+) in the center of the screen followed by a first name.</p>" +
-    "<p class='instructions'>Your task is to move forward or backward by pressing the MOVE FORWARD (the Y key)" +
+    "<p class='instructions'>Your task is to move forward or backward by pressing the MOVE FORWARD (the Y key) " +
     "or MOVE BACKWARD (the N key ) key as fast as possible." +
     "<p class='instructions'>Please use only the index of your dominant hand for all these actions.</p>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
@@ -488,8 +488,10 @@ var vaast_instructions_4 = {
     "<h1 class ='custom-title'> Video Game task - Section 1</h1>" +
     "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
-    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + " people first names by pressing the Y key </strong></li>" +
-    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names by pressing the N key</strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + " people first names </strong></li>" +
+    "<li><strong>by pressing the Y key </strong></li>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names </strong></li>" +
+    "<li><strong>by pressing the N key</strong></li>" +
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
     "have to perform for each category. You need this information to complete the " +
@@ -497,8 +499,8 @@ var vaast_instructions_4 = {
     "<strong> Also, it is EXTREMELY IMPORTANT that you try to respond as fast and as correctly as possible. </strong>." +
     "<p class ='instructions'>You will start with a training phase.</p>" +
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
-    "so read and memorize the instructions above." + 
-    "If your response is false, you will have to start again the trial and make the correct action" +
+    "so read and memorize the instructions above. " + 
+    "If your response is false, you will have to start again the trial and make the correct action " +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
