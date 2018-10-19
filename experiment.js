@@ -516,10 +516,12 @@ var vaast_instructions_5 = {
     "<p class='instructions'>As a reminder, you have to:</p>" +
     "<ul class='instructions'>" +
      "<li>" +
-      "<strong>Approach (move forward) typical " + group_to_approach_1 + " people first names by pressing the Y key</strong>" +
+      "<strong>Approach (move forward) typical " + group_to_approach_1 + " people first names </strong>" +
+      "<strong>by pressing the Y key</strong>" +
      "</li>" +
      "<li>" +
-      "<strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names by pressing the N key</strong>" +
+      "<strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names </strong>" +
+      "<strong>by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
