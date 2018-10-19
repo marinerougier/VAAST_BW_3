@@ -66,8 +66,8 @@ if(!is_compatible) {
 // Variable used to define experimental condition.
 
 var vaast_condition_approach_1 = jsPsych.randomization.sampleWithoutReplacement(["approach_black", "approach_white"], 1)[0];
-var iat_self    = jsPsych.randomization.sampleWithoutReplacement(["left", "right"], 1)[0];; // either "left" or "right"
-var iat_maths_1 = jsPsych.randomization.sampleWithoutReplacement(["left", "right"], 1)[0];; // either "left" or "right"
+var iat_good    = jsPsych.randomization.sampleWithoutReplacement(["left", "right"], 1)[0];; // either "left" or "right"
+var iat_black_1 = jsPsych.randomization.sampleWithoutReplacement(["left", "right"], 1)[0];; // either "left" or "right"
 
 var jspsych_id  = jsPsych.randomization.randomID();
 
@@ -276,8 +276,8 @@ var saving_iat_trial = function(){
       client.recordEvent('stream_iat', {
         session_id: jspsych_id,
         experimental_condition: vaast_condition_approach_1,
-        iat_self_side: iat_self,
-        iat_maths_1_side: iat_maths_1,
+        iat_good_side: iat_good,
+        iat_black_1_side: iat_black_1,
         iat_trial_data: jsPsych.data.get().last().json()
       });
     }
@@ -827,7 +827,7 @@ switch(iat_good) {
         good_side               = "left";
         bad_side              = "right";
 
-        block_1_left_label      = "GOOD;
+        block_1_left_label      = "GOOD";
         block_1_right_label     = "BAD";
         block_3_left_label_top  = "GOOD";
         block_3_right_label_top = "BAD";
