@@ -790,9 +790,10 @@ var vaast_test_block_2 = {
 var vaast_instructions_8 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo</h1>" +
-    "<p><center>Cette partie de l'étude est maintenant terminée.</center></p>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer.</p>",
+    "<h1 class ='custom-title'> Video Game task</h1>" +
+    "<p><center>This task is completed.</center></p>" +
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
   choices: [32]
 };
 
@@ -891,10 +892,14 @@ switch(iat_black_1) {
 var iat_instructions_1 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Task 2 </h1>" +
+    "<h1 class ='custom-title'> Categorization task </h1>" +
     "<p class='instructions'>In this task, you will be asked to sort words and first names" +
     " into groups as fast as you can using the keyboard. The following is a" +
     " list of category labels and the items that belong to each of these categories." +
+    "</p>" +
+    "<p class='instructions'>As you will see, you will have to sort" +
+    " words depending on whether these ones are good vs. bad" +
+    " and first names depending on whether these ones are usually associated with Black people vs. with White people." +
     "</p>" +
     "<table>" +
       "<tr>" +
@@ -910,11 +915,11 @@ var iat_instructions_1 = {
         "<td align='left'>Abuse, Crash, Filth, Murder</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>Typical WHITE people first names</td>" +
+        "<td>WHITE people</td>" +
         "<td align='left'>Harry, Josh, Roger, Alan</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>Typical BLACK people first names</td>" +
+        "<td>BLACK people</td>" +
         "<td align='left'>Lerone, Percell, Theo, Alphonse</td>" +
       "</tr>" +
     "</table>" +
@@ -1420,57 +1425,64 @@ var iat_block_5_test = {
 var iat_instructions_2 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Task 2 </h1>" +
-    "<p class='instructions'>This part of the experiment is now over. " +
+    "<h1 class ='custom-title'> Categorization task </h1>" +
+    "<p class='instructions'>The Categorization task is now completed. " +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to continue.</p>",
   choices: [32]
 };
 // Demographic block ---------------------------------------------------------------------
 // Demographic variables
-var mcq_sexe_options = ["Homme", "Femme"];
-var mcq_handedness_options = ["Droitier·e", "Gaucher·e"];
-var mcq_frenchLvl_options = ["Langue maternelle", "Plutôt très bon", "Plutôt bon", "Moyen", "Plutôt mauvais", "Plutôt très mauvais"];
-var mcq_vaast = ["Oui", "Non"];
+var mcq_sexe_options = ["Male", "Female"];
+var mcq_handedness_options = ["Right-handed", "Left-handed"];
+var mcq_frenchLvl_options = ["Fluently", "Very good", "Good", "Average", "Bad", "Very bad"];
+var mcq_vaast = ["Yes", "No"];
+var mcq_iat = ["Yes", "No"];
 
 // ---------------------------------------------------------------------------------------
 var demographic_data_0 = {
   type: 'html-keyboard-response',
   stimulus:
-    "<p class='instructions'>Cette étude est presque terminée, nous allons maintenant vous demander de répondre à quelques questions " +
-    "concernant : votre âge, votre sexe, votre latéralité et votre niveau de maîtrise de la " +
-    "langue française. </p>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer.</p>",
+    "<p class='instructions'> This study is almost over. We will ask you to answer some questions " +
+    "as: your age, sex, handedness and your level of fluency in English. </p>" +
+    "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
+    " to continue.</p>",
   choices: [32]
 };
 
 var demographic_data_1 = {
   type: 'survey-text',
-  questions: [{prompt: "Quel âge avez-vous ?"}],
-  button_label: "Passer à la question suivante"
+  questions: [{prompt: "How old are you?"}],
+  button_label: "Continue"
 };
 
 var demographic_data_2 = {
   type: 'survey-multi-choice',
-  questions: [{prompt : "Quel est votre sexe ?", options: mcq_sexe_options}],
-  button_label: "Passer à la question suivante"
+  questions: [{prompt : "Please indicate your sex", options: mcq_sexe_options}],
+  button_label: "Continue"
 };
 
 var demographic_data_3 = {
   type: 'survey-multi-choice',
-  questions: [{prompt : "Quel est votre latéralité ?", options: mcq_handedness_options}],
-  button_label: "Passer à la question suivante"
+  questions: [{prompt : "Please indicate your handedness", options: mcq_handedness_options}],
+  button_label: "Continue"
 };
 
 var demographic_data_4 = {
   type: 'survey-multi-choice',
-  questions: [{prompt : "Quel est votre niveau de français ?", options: mcq_frenchLvl_options}],
-  button_label: "Passer à la suite"
+  questions: [{prompt : "How well do you speak english?", options: mcq_frenchLvl_options}],
+  button_label: "Continue"
 };
 
 var demographic_data_5 = {
   type: 'survey-multi-choice',
-  questions: [{prompt : "Aviez vous déjà passé la Tâche du Jeu Vidéo", options: mcq_vaast}],
-  button_label: "Passer à la suite"
+  questions: [{prompt : "Have you already performed the Video Game task?", options: mcq_vaast}],
+  button_label: "Continue"
+};
+
+var demographic_data_6 = {
+  type: 'survey-multi-choice',
+  questions: [{prompt : "Have you already performed the Categorization task?", options: mcq_iat}],
+  button_label: "Continue"
 };
 
 // end fullscreen -----------------------------------------------------------------------
@@ -1485,15 +1497,16 @@ var fullscreen_trial_exit = {
 var ending = {
   type: "html-keyboard-response",
   stimulus:
-    "<p class='instructions'>Cette étude est maintenant terminée. Merci pour votre participation.<p>" +
-    "<p class='instructions'>Cette étude nous permettait d’étudier les tendances à l’approche et à " +
-    "l’évitement. La littérature en psychologie sociale a pu mettre en évidence le fait que la simple " +
-    "présentation de certains concepts entraînait de manière spontanée des tendances à s’approcher ou " +
-    "s'éloigner de ces concepts. Par exemple, la vision d’une glace facilitera l’exécution de mouvement d’approche." +
+    "<p class='instructions'>This study is now over. Thank you very much for your participation.<p>" +
+    "<p class='instructions'>The aim of this study was to compare the Video Game task and the categorization task. " +
+    "Some work in social psychology showed that individuals are generally faster, in the Video Game task, " +
+    "to approach first names belonging to their own group (e.g., typical white first names for White people) rather than avoid them. " +
+    "In the Categorization task, individuals are generally faster to associate together good words with " +
+    "first names belonging to their own group (e.g., typical white first names for White people) rather than bad words." +
     "</p>" +
-    "<p class='instructions'>Dans cette expérience, nous nous intéressons à délimiter certaines " +
-    "conditions nécessaires à l’apparition de ces tendances spontanées. </p>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer.</p>",
+    "<p class='instructions'>In this experiment, we tested whether these two tasks lead to similar results or " +
+    "if these tasks measure something different. </p>" +
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to continue.</p>",
   choices: [32]
 };
 
@@ -1564,6 +1577,7 @@ timeline.push(demographic_data_0,
               demographic_data_3,
               demographic_data_4,
               demographic_data_5,
+	      demographic_data_6,
               save_demographics);
 
 // ending
