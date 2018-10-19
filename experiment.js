@@ -1254,7 +1254,7 @@ var iat_block_1 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_1_stim,20)
+  timeline_variables: sample_n_iat(iat_block_1_stim,2)
 }
 
 // iat - block 2 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1281,7 +1281,7 @@ var iat_block_2 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_2_stim, 20)
+  timeline_variables: sample_n_iat(iat_block_2_stim, 2)
 }
 
 // iat - block 3 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
@@ -1309,7 +1309,7 @@ var iat_block_3_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_3_stim, 20)
+  timeline_variables: sample_n_iat(iat_block_3_stim, 2)
 }
 
 // iat - block 3 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1336,7 +1336,7 @@ var iat_block_3_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_3_stim, 74)
+  timeline_variables: sample_n_iat(iat_block_3_stim, 4)
 }
 
 // iat - block 4 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1363,7 +1363,7 @@ var iat_block_4 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_4_stim, 20)
+  timeline_variables: sample_n_iat(iat_block_4_stim, 2)
 }
 
 // iat - block 5 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
@@ -1390,7 +1390,7 @@ var iat_block_5_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_5_stim, 20)
+  timeline_variables: sample_n_iat(iat_block_5_stim, 2)
 }
 
 // iat - block 5 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1418,7 +1418,7 @@ var iat_block_5_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_5_stim, 74)
+  timeline_variables: sample_n_iat(iat_block_5_stim, 4)
 }
 
 //
@@ -1442,8 +1442,7 @@ var mcq_iat = ["Yes", "No"];
 var demographic_data_0 = {
   type: 'html-keyboard-response',
   stimulus:
-    "<p class='instructions'> This study is almost over. We will ask you to answer some questions " +
-    "as: your age, sex, handedness and your level of fluency in English. </p>" +
+    "<p class='instructions'> This study is almost over. We will ask you to answer some demographic questions.</p>" +
     "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
     " to continue.</p>",
   choices: [32]
