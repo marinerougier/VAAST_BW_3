@@ -1517,7 +1517,7 @@ timeline.push(vaast_instructions_4,
               vaast_test_block_1);
 
 // vaast - block 2
-timeline.push(vaast_instructions_6
+timeline.push(vaast_instructions_6,
 	      vaast_training_block_2,
               vaast_instructions_7,
               vaast_test_block_2);
