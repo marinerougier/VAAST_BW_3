@@ -1230,7 +1230,7 @@ var iat_block_5_stim = [
 ]
 
 
-// iat - block 1 ------------------------------------------------------------------------
+// iat - block 1 ------------------------------------------------------------------------orginally 20 trials over 4 stim
 var iat_block_1 = {
   timeline: [
     {
@@ -1257,7 +1257,7 @@ var iat_block_1 = {
   timeline_variables: sample_n_iat(iat_block_1_stim,20)
 }
 
-// iat - block 2 ------------------------------------------------------------------------
+// iat - block 2 ------------------------------------------------------------------------orginally 20 trials over 4 stim
 var iat_block_2 = {
   timeline: [
     {
@@ -1284,7 +1284,7 @@ var iat_block_2 = {
   timeline_variables: sample_n_iat(iat_block_2_stim, 20)
 }
 
-// iat - block 3 (training) -------------------------------------------------------------
+// iat - block 3 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
 var iat_block_3_training = {
   timeline: [
     {
@@ -1312,7 +1312,7 @@ var iat_block_3_training = {
   timeline_variables: sample_n_iat(iat_block_3_stim, 20)
 }
 
-// iat - block 3 (test) -----------------------------------------------------------------
+// iat - block 3 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
 var iat_block_3_test = {
   timeline: [
     {
@@ -1339,7 +1339,7 @@ var iat_block_3_test = {
   timeline_variables: sample_n_iat(iat_block_3_stim, 74)
 }
 
-// iat - block 4 ------------------------------------------------------------------------
+// iat - block 4 ------------------------------------------------------------------------orginally 20 trials over 4 stim
 var iat_block_4 = {
   timeline: [
     {
@@ -1366,7 +1366,7 @@ var iat_block_4 = {
   timeline_variables: sample_n_iat(iat_block_4_stim, 20)
 }
 
-// iat - block 5 (training) -------------------------------------------------------------
+// iat - block 5 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
 var iat_block_5_training = {
   timeline: [
     {
@@ -1393,7 +1393,7 @@ var iat_block_5_training = {
   timeline_variables: sample_n_iat(iat_block_5_stim, 20)
 }
 
-// iat - block 5 (test) -----------------------------------------------------------------
+// iat - block 5 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
 var iat_block_5_test = {
   timeline: [
     {
