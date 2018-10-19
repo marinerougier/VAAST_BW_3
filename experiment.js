@@ -413,18 +413,19 @@ var keen_ping = {
 // Switching to fullscreen --------------------------------------------------------------
 var fullscreen_trial = {
   type: 'fullscreen',
-  message:  '<p>Pour prendre part à cette étude, votre navigateur doit être mis en plein écran.</p>',
-  button_label: 'Passer en plein écran',
+  message:  '<p>To take part in this study, your browser needs to be set to fullscreen.</p>',
+  button_label: 'Switch to fullscreen',
   fullscreen_mode: true
 }
+
 
 // Initial instructions -----------------------------------------------------------------
 // First slide --------------------------------------------------------------------------
 var instructions = {
   type: "html-keyboard-response",
   stimulus:
-    "<p>Vous êtes maintenant sur le point de commencer l'étude. Dans cette étude, vous allez prendre part à une tâche. </p>" +
-    "<p class = 'continue-instructions'>Appyez sur <strong>espace</strong> pour commencer la tâche.</p>",
+    "<p>You are now about to start the study. In this study, you will engage in different tasks.</p>" +
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to start Task 1.</p>",
   choices: [32]
 };
 
@@ -433,14 +434,19 @@ var instructions = {
 var vaast_instructions_1 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo</h1>" +
-    "<p class='instructions'>Au cours de cette étude, comme dans un jeu vidéo, vous serez " +
-    "dans un environnement dans lequel vous pourrez avancer ou reculer. L'environnement " +
-    "dans lequel vous pourrez vous déplacer est présenté ci-dessous.</p>" +
+    "<h1 class ='custom-title'> Video Game task</h1>" +
+    "<p class='instructions'>In the first task, just like in a videogame, you " +
+    "will act within the environment presented below." +
+   "<p class='instructions'> You will be able to move forward and backward" +
+    " using the arrow keys on your keyboard.</p>" +
+    "<p class='instructions'>Some pictures will appear within the" +
+    " environment and you will have to approach them or avoid them" +
+    " according to the category they belong to.</p>" +
     "<br>" +
     "<img src = 'media/vaast-background.png'>" +
     "<br>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour continuer. </p>",
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
   choices: [32]
 };
 
