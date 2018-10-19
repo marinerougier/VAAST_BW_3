@@ -520,6 +520,47 @@ var vaast_instructions_5 = {
   choices: [32]
 };
 
+var vaast_instructions_6 = {
+  type: "html-keyboard-response",
+  stimulus:
+    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
+    "<p class='instructions'>Vous devrez : " +
+    "<ul class='instructions'>" +
+    "<li><strong>ALLER VERS les mots " + group_to_approach_2 + " (en appuyant sur Y)</strong></li>" +
+    "<li><strong> VOUS ÉLOIGNER des mots " + group_to_avoid_2 + " (en appuyant sur N)</strong></li>" +
+    "</ul>" +
+    "<p class='instructions'>Il est très important de vous souvenir de ces consignes pour pouvoir " +
+    "réaliser la tâche correctement. Il est également EXTRÊMEMENT important d'essayer de répondre " +
+    "<strong>LE PLUS RAPIDEMENT ET LE PLUS EXACTEMENT POSSIBLE</strong>." +
+    "<p class ='instructions'>Vous allez commencer par une phase d'entraînement.</p>" +
+    "<p class ='instructions'><u>ATTENTION</u> : nous vous signalerons vos erreurs uniquement " +
+    "dans la phase d'entraînement, donc relisez et mémorisez bien les consignes ci-dessus. " + 
+    "Si vous commettez une erreur, vous devrez vous corriger." +
+    "<p class = 'continue-instructions'>Appuyez sur <strong>entrée</strong> pour " +
+    "commencer l'entraînement.</p>",
+  choices: [13]
+};
+
+
+var vaast_instructions_7 = {
+  type: "html-keyboard-response",
+  stimulus:
+    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
+    "<p class='instructions'>L'entraînement est maintenant terminé. </p>" +
+    "<p class='instructions'><u>ATTENTION</u> : vous n'aurez plus de messages pour signaler vos erreurs.</p>" +
+    "<p class='instructions'>Donc rappelez-vous bien, vous devez :</p>" +
+    "<ul class='instructions'>" +
+     "<li>" +
+      "<strong>ALLER VERS les mots " + group_to_approach_2 + " (en appuyant sur Y)</strong>" +
+     "</li>" +
+     "<li>" +
+      "<strong>VOUS ÉLOIGNER des mots " + group_to_avoid_2 + " (en appuyant sur N)</strong>" +
+     "</li>" +
+    "</ul>" +
+    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour commencer la tâche.</p>",
+  choices: [32]
+};
+
 // Creating a trial ---------------------------------------------------------------------
 // Note: vaast_start trial is a dirty hack which uses a regular vaast trial. The correct
 // movement is approach and the key corresponding to approach is "h", thus making the
@@ -731,7 +772,7 @@ var vaast_test_block_2 = {
   }
 };
 
-var vaast_instructions_6 = {
+var vaast_instructions_8 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Tâche du Jeu Vidéo</h1>" +
@@ -1467,21 +1508,22 @@ timeline.push(instructions);
 // vaast - instructions
 timeline.push(vaast_instructions_1,
               vaast_instructions_2,
-              vaast_instructions_3,
-              vaast_instructions_4);
+              vaast_instructions_3);
 
 // vaast - block 1
-timeline.push(vaast_training_block_1,
+timeline.push(vaast_instructions_4,
+	      vaast_training_block_1,
               vaast_instructions_5,
               vaast_test_block_1);
 
 // vaast - block 2
-timeline.push(vaast_training_block_2,
-              vaast_instructions_5,
+timeline.push(vaast_instructions_6
+	      vaast_training_block_2,
+              vaast_instructions_7,
               vaast_test_block_2);
 
 // vaast - end
-timeline.push(vaast_instructions_6);
+timeline.push(vaast_instructions_8);
 
 // iat - initial instructions
 timeline.push(iat_instructions_1)
