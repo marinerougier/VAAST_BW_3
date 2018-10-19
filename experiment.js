@@ -336,15 +336,15 @@ var welcome = {
   stimulus:
     "<h1 class ='custom-title'> Welcome </h1>" +
     "<p class='instructions'> First, thank you for taking part to this study.<p>" +
-    "<p class='instructions'> During this study, you will have to complete two different tasks. We" +
+    "<p class='instructions'> During this study, you will have to complete two different tasks. We " +
     "will gather data related to how you complete them, but " + 
     "no personally identifying information will be collected. </p>" +
     "<p class='instructions'> Because we rely on third party services to gather data, ad-blocking" +
     "software might interfere with data collection. Therefore, please" +
     "disable your ad-blocking software during this study." +
-    "<b>If we cannot collect your data, we will not be able to reward you for " +
+    "<b> If we cannot collect your data, we will not be able to reward you for " +
     "your participation</b>. </p>" +
-    "<p class='instructions'>If you have any question related to this research, please " +
+    "<p class='instructions'> If you have any question related to this research, please " +
     "e-mail marine.rougier@uclouvain.be</p>" +
     "<p class = 'continue-instructions'>Press <strong>espace</strong> to start the study.</p>",
   choices: [32]
@@ -424,7 +424,7 @@ var fullscreen_trial = {
 var instructions = {
   type: "html-keyboard-response",
   stimulus:
-    "<p>You are now about to start the study. In this study, you will engage in different tasks.</p>" +
+    "<p>You are now about to start the study. In this study, you will engage in two different tasks.</p>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to start Task 1.</p>",
   choices: [32]
 };
@@ -435,7 +435,7 @@ var vaast_instructions_1 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Video Game task</h1>" +
-    "<p class='instructions'>In this task, just like in a videogame, you " +
+    "<p class='instructions'>In this task, just like in a video game, you " +
     "will act within the environment presented below." +
    "<p class='instructions'> You will be able to move forward and backward" +
     " using the arrow keys on your keyboard.</p>" +
@@ -471,7 +471,7 @@ var vaast_instructions_3 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Video Game task </h1>" +
-    "<p class='instructions'>At the beginning of each trial, you will see the “O” symbol." +
+    "<p class='instructions'>At the beginning of each trial, you will see the “O” symbol. " +
     "This symbol indicates that you have to press the START key (namely the H key) to start the trial. </p>" +
     "<p class='instructions'>Then, you will see a fixation cross (+) in the center of the screen followed by a first name.</p>" +
     "<p class='instructions'>Your task is to move forward or backward by pressing the MOVE FORWARD (the Y key)" +
@@ -485,11 +485,11 @@ var vaast_instructions_3 = {
 var vaast_instructions_4 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Video Game task - Instructions for this section</h1>" +
+    "<h1 class ='custom-title'> Video Game task - Section 1</h1>" +
     "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
-    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + "first names by pressing the Y key </strong></li>" +
-    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + "first names by pressing the N key</strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + " people first names by pressing the Y key </strong></li>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names by pressing the N key</strong></li>" +
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
     "have to perform for each category. You need this information to complete the " +
@@ -498,7 +498,7 @@ var vaast_instructions_4 = {
     "<p class ='instructions'>You will start with a training phase.</p>" +
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
     "so read and memorize the instructions above." + 
-    "If your response is false, you will have to make the opposite and correct action" +
+    "If your response is false, you will have to start again the trial and make the correct action" +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
@@ -508,40 +508,42 @@ var vaast_instructions_4 = {
 var vaast_instructions_5 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
-    "<p class='instructions'>L'entraînement est maintenant terminé. </p>" +
-    "<p class='instructions'><u>ATTENTION</u> : vous n'aurez plus de messages pour signaler vos erreurs.</p>" +
-    "<p class='instructions'>Donc rappelez-vous bien, vous devez :</p>" +
+    "<h1 class ='custom-title'> Video Game task - Section 1 </h1>" +
+    "<p class='instructions'>The training is now completed. </p>" +
+    "<p class='instructions'><u>WARNING</u>: You will no longer have messages to report your errors.</p>" +
+    "<p class='instructions'>As a reminder, you have to:</p>" +
     "<ul class='instructions'>" +
      "<li>" +
-      "<strong>ALLER VERS les mots " + group_to_approach_1 + " (en appuyant sur Y)</strong>" +
+      "<strong>Approach (move forward) typical " + group_to_approach_1 + " people first names by pressing the Y key</strong>" +
      "</li>" +
      "<li>" +
-      "<strong>VOUS ÉLOIGNER des mots " + group_to_avoid_1 + " (en appuyant sur N)</strong>" +
+      "<strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour commencer la tâche.</p>",
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
   choices: [32]
 };
 
 var vaast_instructions_6 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
-    "<p class='instructions'>Vous devrez : " +
+    "<h1 class ='custom-title'> Video Game task - Section 2 </h1>" +
+    "<p class='instructions'>You have to : " +
     "<ul class='instructions'>" +
-    "<li><strong>ALLER VERS les mots " + group_to_approach_2 + " (en appuyant sur Y)</strong></li>" +
-    "<li><strong> VOUS ÉLOIGNER des mots " + group_to_avoid_2 + " (en appuyant sur N)</strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_2 + " people first names by pressing the Y key </strong></li>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names by pressing the N key</strong></li>" +
     "</ul>" +
-    "<p class='instructions'>Il est très important de vous souvenir de ces consignes pour pouvoir " +
-    "réaliser la tâche correctement. Il est également EXTRÊMEMENT important d'essayer de répondre " +
-    "<strong>LE PLUS RAPIDEMENT ET LE PLUS EXACTEMENT POSSIBLE</strong>." +
-    "<p class ='instructions'>Vous allez commencer par une phase d'entraînement.</p>" +
-    "<p class ='instructions'><u>ATTENTION</u> : nous vous signalerons vos erreurs uniquement " +
-    "dans la phase d'entraînement, donc relisez et mémorisez bien les consignes ci-dessus. " + 
-    "Si vous commettez une erreur, vous devrez vous corriger." +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>entrée</strong> pour " +
-    "commencer l'entraînement.</p>",
+    "<p class='instructions'>It is very important to remember which action you will " +
+    "have to perform for each category. You need this information to complete the " +
+    "task successfully</p>" +
+    "<strong> Also, it is EXTREMELY IMPORTANT that you try to respond as fast and as correctly as possible. </strong>." +
+    "<p class ='instructions'>You will start with a training phase.</p>" +
+    "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
+    "so read and memorize the instructions above." + 
+    "If your response is false, you will have to start again the trial and make the correct action" +
+    "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
+    "begin the training.</p>",
   choices: [13]
 };
 
@@ -549,19 +551,20 @@ var vaast_instructions_6 = {
 var vaast_instructions_7 = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'> Tâche du Jeu Vidéo </h1>" +
-    "<p class='instructions'>L'entraînement est maintenant terminé. </p>" +
-    "<p class='instructions'><u>ATTENTION</u> : vous n'aurez plus de messages pour signaler vos erreurs.</p>" +
-    "<p class='instructions'>Donc rappelez-vous bien, vous devez :</p>" +
+    "<h1 class ='custom-title'> Video Game task - Section 2 </h1>" +
+    "<p class='instructions'>The training is now completed. </p>" +
+    "<p class='instructions'><u>WARNING</u>: You will no longer have messages to report your errors.</p>" +
+    "<p class='instructions'>As a reminder, you have to:</p>" +
     "<ul class='instructions'>" +
      "<li>" +
-      "<strong>ALLER VERS les mots " + group_to_approach_2 + " (en appuyant sur Y)</strong>" +
+      "<strong>Approach (move forward) typical " + group_to_approach_2 + " people first names by pressing the Y key</strong>" +
      "</li>" +
      "<li>" +
-      "<strong>VOUS ÉLOIGNER des mots " + group_to_avoid_2 + " (en appuyant sur N)</strong>" +
+      "<strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
-    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour commencer la tâche.</p>",
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
   choices: [32]
 };
 
