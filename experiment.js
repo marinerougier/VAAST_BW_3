@@ -513,29 +513,29 @@ var vaast_instructions_2 = {
   choices: [32]
 };
 
-var vaast_instructions_2_1 = {
-  type: "html-keyboard-response",
-  stimulus:
-    "<h1 class ='custom-title'> Video Game task </h1>" +
-    "<p class='instructions'><center>Here are the two categories and items belonging to each category</center></p>" +
-    "<table>" +
-      "<tr>" +
-        "<th width='200px'>Category</th>" +
-        "<th align='left'>Item</th>" +
-      "</tr>" +
-      "<tr>" +
-        "<td>WHITE people</td>" +
-        "<td align='left'>Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
-      "</tr>" +
-      "<tr>" +
-        "<td>BLACK people</td>" +
-        "<td align='left'>Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
-      "</tr>" +
-    "</table>" +
-    "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
-    " to continue.</p>",
-  choices: [32]
-};
+//var vaast_instructions_2_1 = {
+//  type: "html-keyboard-response",
+//  stimulus:
+//    "<h1 class ='custom-title'> Video Game task </h1>" +
+//    "<p class='instructions'><center>Here are the two categories and items belonging to each category</center></p>" +
+//    "<table>" +
+//      "<tr>" +
+//        "<th width='200px'>Category</th>" +
+//        "<th align='left'>Item</th>" +
+//      "</tr>" +
+//      "<tr>" +
+//        "<td>WHITE people</td>" +
+//        "<td align='left'>Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
+//      "</tr>" +
+//      "<tr>" +
+//        "<td>BLACK people</td>" +
+//        "<td align='left'>Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
+//      "</tr>" +
+//    "</table>" +
+//    "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
+//    " to continue.</p>",
+//  choices: [32]
+//};
 
 var vaast_instructions_3 = {
   type: "html-keyboard-response",
