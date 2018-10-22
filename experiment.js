@@ -1894,6 +1894,7 @@ timeline.push(instructions);
 // vaast - instructions
 timeline.push(vaast_instructions_1,
               vaast_instructions_2,
+	      vaast_instructions_2_1,
               vaast_instructions_3);
 
 // vaast - block 1
