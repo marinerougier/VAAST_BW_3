@@ -139,6 +139,8 @@ var vaast_stim_training = [
 ]
 
 var vaast_stim = [
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Jamel"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Alonzo"},
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Lerone"},
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Percell"},
   //{movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Theo"},
@@ -184,7 +186,9 @@ var vaast_stim = [
   //{movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Hank"},
   //{movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Jonathan"},
   //{movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Peter"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Wilbur"}
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Wilbur"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Chip"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Adam"}
 ];
 
 // vaast background images --------------------------------------------------------------,
@@ -521,11 +525,11 @@ var vaast_instructions_2_1 = {
       "</tr>" +
       "<tr>" +
         "<td>WHITE people</td>" +
-        "<td align='left'>Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
+        "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
       "</tr>" +
       "<tr>" +
         "<td>BLACK people</td>" +
-        "<td align='left'>Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
+        "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
     "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
@@ -998,11 +1002,11 @@ var iat_instructions_1_1 = {
       "</tr>" +
       "<tr>" +
         "<td>WHITE people</td>" +
-        "<td align='left'>Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
+        "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
       "</tr>" +
       "<tr>" +
         "<td>BLACK people</td>" +
-        "<td align='left'>Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
+        "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Rorrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
     "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
