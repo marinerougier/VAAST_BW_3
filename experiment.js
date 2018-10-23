@@ -513,7 +513,7 @@ var vaast_instructions_2_1 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Video Game task </h1>" +
-    "<p class='instructions'><center>Here are the two categories and stimuli belonging to each category</center></p>" +
+    "<p class='instructions'><center>Here are the two categories and the items belonging to each category</center></p>" +
     "<table>" +
       "<tr>" +
         "<th width='200px'>Category</th>" +
@@ -982,7 +982,7 @@ var iat_instructions_1_1 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'> Categorization task </h1>" +
-    "<p class='instructions'><center>Here are the four categories and stimuli belonging to each category</center></p>" +
+    "<p class='instructions'><center>Here are the four categories and the items belonging to each category</center></p>" +
     "<table>" +
       "<tr>" +
         "<th width='200px'>Category</th>" +
