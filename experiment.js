@@ -1293,6 +1293,8 @@ var iat_block_1_stim = [
 ]
 
 var iat_block_2_stim = [
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_1st},
@@ -1316,6 +1318,8 @@ var iat_block_2_stim = [
   {category: "black-white", stimulus: "Marcellus",  stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Terryl",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Wardell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_1st},
@@ -1392,6 +1396,8 @@ var iat_block_3_stim = [
   {category: "good-bad", stimulus: "Kill",           stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Rotten",         stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Vomit",          stim_key_association: bad_side},
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_1st},
@@ -1415,6 +1421,8 @@ var iat_block_3_stim = [
   {category: "black-white", stimulus: "Marcellus",  stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Terryl",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Wardell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_1st},
@@ -1441,6 +1449,8 @@ var iat_block_3_stim = [
 ]
 
 var iat_block_4_stim = [
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_2nd},
@@ -1464,6 +1474,8 @@ var iat_block_4_stim = [
   {category: "black-white", stimulus: "Marcellus",  stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Terryl",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Wardell",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_2nd},
@@ -1540,6 +1552,8 @@ var iat_block_5_stim = [
   {category: "good-bad", stimulus: "Kill",           stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Rotten",         stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Vomit",          stim_key_association: bad_side},
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_2nd},
@@ -1563,6 +1577,8 @@ var iat_block_5_stim = [
   {category: "black-white", stimulus: "Marcellus",  stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Terryl",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Wardell",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_2nd},
