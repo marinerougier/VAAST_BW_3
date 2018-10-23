@@ -132,10 +132,10 @@ switch(vaast_condition_approach_1) {
 // movement_1 ou movement_2.
 
 var vaast_stim_training = [
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Jamel"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Alonzo"},
-  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Chip"},
-  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Adam"}
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Marquis"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Terell"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Tanner"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Wyatt"}
 ]
 
 var vaast_stim = [
